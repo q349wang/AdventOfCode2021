@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-
+    // Could use circular buffer for O(1) space
     long long breedable[NUM_DAYS];
     long long numFish[NUM_DAYS];
 
