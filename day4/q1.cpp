@@ -9,7 +9,7 @@ struct Bingo
 {
     map<int, int> valToOffset;
     int values[25];
-    bool marked[25];
+    bool marked[25]; // Use 32bit integer instead :)
 };
 
 int main()
